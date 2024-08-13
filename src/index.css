@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,547&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body,html{
     margin: 0;
     padding: 0;
