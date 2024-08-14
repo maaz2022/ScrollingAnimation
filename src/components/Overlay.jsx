@@ -7,7 +7,7 @@ const Section = (props) => {
         <section className={`h-screen flex flex-col justify-center p-10 ${props.right ? 'items-end':'items-start'}`}>
             <div className="w-1/2 flex items-center justify-center">
                 <div className="max-w-sm w-full">
-                    <div className="bg-white rounded-lg px-8 py-12">
+                    <div className="bg-white rounded-lg px-4 py-12">
                         {props.children}
                     </div>
                 </div>
@@ -57,8 +57,8 @@ export const Overlay = () => {
           </p>
           <ul className="leading-9">
             <li>ReactJS</li>
-            <li>React Native</li>
-            <li>VueJS</li>
+            <li>NextJs</li>
+            <li>ThreeJS</li>
             <li>Tailwind</li>
           </ul>
           <p className="mt-3">
@@ -66,23 +66,23 @@ export const Overlay = () => {
           </p>
           <ul className="leading-9">
             <li>NodeJS</li>
-            <li>tRPC</li>
-            <li>NestJS</li>
-            <li>PostgreSQL</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>MySQL</li>
           </ul>
           <p className="animate-bounce  mt-6">↓</p>
             </Section>
-            <Section  opacity={
+            <Section   opacity={
                 opacityThirdSection
             }>
             <h1 className="font-semibold font-serif text-2xl">
-            🤙 Call me maybe?
+            🤙 Contact?
           </h1>
           <p className="text-gray-500">
             I'm very expensive but you won't regret it
           </p>
-          <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📞 <a href="tel:(+42) 4242-4242-424242">(+42) 4242-4242-424242</a>
+          <p className="mt-6 py-3 flex justify-center bg-slate-300">
+            📧 <a className="text-[14px]" href="mailto:maaznazeer098@gmail.com">maaznazeer098@gmail.com</a>
           </p>
             </Section>
             </div>  
